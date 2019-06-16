@@ -1,5 +1,6 @@
-#[<< Go to table of contents]()
-#[<< Go to previous chapter (1.1 Downloading and installing Visual Code)]()
+[<< Go to table of contents]()
+
+[<< Go to previous chapter (1.1 Downloading and installing Visual Code)]()
 
 # 1.2 Writing and compiling helloWorld.c
 

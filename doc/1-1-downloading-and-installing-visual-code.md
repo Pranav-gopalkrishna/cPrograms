@@ -1,3 +1,4 @@
+[<< Go to table of contents](../readme.md)
 # Downlaoding and installing Visual Code
 
 Visual studio code can be installed from [here](https://code.visualstudio.com/Download)

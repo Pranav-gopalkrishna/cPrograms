@@ -27,4 +27,4 @@ The full syntax is as follows.
 gcc helloWorld.c -o helloWorld
 ```
 
-The difference is that in the first command, an executable file ```a.out``` is automatically created, while in the second command, you create the executable file ```helloWorld```. To see the creation of these files with your own eyes, enter the command ```ls```.
+The difference is that in the first command, an executable file ```a.out``` is automatically created, while in the second command, you create the executable file **helloWorld**. To see the creation of these files with your own eyes, enter the command ```ls```.

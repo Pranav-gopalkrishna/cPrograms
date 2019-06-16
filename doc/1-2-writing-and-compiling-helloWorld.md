@@ -1,6 +1,6 @@
-[<< Go to table of contents]()
+[<< Go to table of contents](/doc/readme.md)
 
-[<< Go to previous chapter (1.1 Downloading and installing Visual Code)]()
+[<< Go to previous chapter (1.1 Downloading and installing Visual Code)](/doc/1-1-downloading-and-installing-visual-code.md)
 
 # 1.2 Writing and compiling helloWorld.c
 

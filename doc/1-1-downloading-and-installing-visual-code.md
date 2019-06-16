@@ -11,6 +11,26 @@ Next, XCode command line tools need to be installed. To do this, go to terminal 
  xcode-select --install
  ```
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Common errors
  
  Without these tools, you will get the following error while compiling programs using the command-line code.

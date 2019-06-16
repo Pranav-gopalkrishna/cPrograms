@@ -27,4 +27,30 @@ The full syntax is as follows.
 gcc helloWorld.c -o helloWorld
 ```
 
-The difference is that in the first command, an executable file ```a.out``` is automatically created, while in the second command, you create the executable file **helloWorld**. To see the creation of these files with your own eyes, enter the command ```ls```.
+The difference is that in the first command, an executable file *a.out* is automatically created, while in the second command, you create the executable file *helloWorld*. To see the creation of these files with your own eyes, enter the command ```ls```.
+
+Execute the program by typing ```helloWorld``` in the terminal.
+
+### Common errors
+If trying to execute the program leads to an error, it is because the program's location is not included in the PATH variable. PATH tells the shell, i.e. the terminal interface, which directories to search for executables in response to the commands issued by the user. For example, ```ls, mkdir, cd, rm, cp, mv...``` commands, which are stored in the *usr/bin* folder, are executable throughout the file system because the *usr/bin* folder is incuded in the PATH. 
+
+To view the contents of the PATH variable, enter the following command.
+
+```sh
+echo $PATH
+```
+
+The input and output would be something like the following.
+
+```sh
+Pranavs-MacBook-Air:cPrograms pranav$ echo $PATH
+/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/pranav/cPrograms/
+```
+
+If you want to add a directory to PATH, enter the following command.
+
+```sh
+export PATH=$PATH:/<yourWorkingDirectory>
+```
+
+

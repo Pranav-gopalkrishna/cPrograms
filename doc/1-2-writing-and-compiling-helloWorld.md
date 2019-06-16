@@ -31,8 +31,7 @@ The difference is that in the first command, an executable file *a.out* is autom
 
 Execute the program by typing ```helloWorld``` in the terminal.
 
-### Common errors
-If trying to execute the program leads to an error, it is because the program's location is not included in the PATH variable. PATH tells the shell, i.e. the terminal interface, which directories to search for executables in response to the commands issued by the user. For example, ```ls, mkdir, cd, rm, cp, mv...``` commands, which are stored in the *usr/bin* folder, are executable throughout the file system because the *usr/bin* folder is incuded in the PATH. 
+If trying to execute the program leads to an error, it is because the program's location is not included in the PATH variable. PATH is an [environment variable](https://en.wikipedia.org/wiki/Environment_variable) that tells the shell, i.e. the terminal interface, which directories to search for executables in response to the commands issued by the user. For example, ```ls, mkdir, cd, rm, cp, mv...``` commands, which are stored in the *usr/bin* folder, are executable throughout the file system because the *usr/bin* folder is incuded in the PATH. 
 
 To view the contents of the PATH variable, enter the following command.
 
@@ -57,5 +56,8 @@ If you want to add a directory to PATH, enter the following command.
 ```sh
 export PATH=$PATH:/<yourWorkingDirectory>
 ```
+
+## Additional information
+To see all the environment variables in the file system, enter the command ```printenv```.
 
 

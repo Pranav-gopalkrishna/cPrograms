@@ -1,4 +1,4 @@
-[<< Go to table of contents](/doc/readme.md)
+[<< Go to table of contents](/doc/cPrograms/readme.md)
 
 [<< Go to previous chapter (1.1 Downloading and installing Visual Code)](/doc/1-1-downloading-and-installing-visual-code.md)
 

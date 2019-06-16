@@ -6,7 +6,7 @@
 
 Here is the C program outputting the string "Hello world".
 
-```sh
+```c
 #include <stdio.h>
 int main()
 {

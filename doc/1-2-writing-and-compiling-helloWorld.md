@@ -44,7 +44,12 @@ The input and output would be something like the following.
 
 ```sh
 Pranavs-MacBook-Air:cPrograms pranav$ echo $PATH
-/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/pranav/cPrograms/
+/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:
+/Applications/VMware Fusion.app/Contents/Public:
+/usr/local/share/dotnet:
+~/.dotnet/tools:
+/Library/Frameworks/Mono.framework/Versions/Current/Commands:
+/Users/pranav/cPrograms/
 ```
 
 If you want to add a directory to PATH, enter the following command.
